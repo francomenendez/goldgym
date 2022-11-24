@@ -1,0 +1,380 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-size: 62.5%;
+}
+
+section{
+    width: 100%;
+}
+
+img{
+    width: 70%;
+    height: auto;
+    border: 3px solid black
+}
+
+/* barra de navegación */
+
+.color{
+    background-image: url(../assets/img/fondo.png);
+}
+
+.navLogo{
+    max-width: 80px;
+    max-height: auto;
+    margin-left: 25px;
+    display: flex; align-content: center;
+}
+
+li a{
+    font-size: 1.6em;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.seccionesBar{
+    margin-right: 30em;
+    display: flex; justify-content: center;
+}
+
+.navbar{
+    padding: 15px 10px 10px 10px;
+    display: flex;
+}
+
+
+
+/* footer */
+
+footer{
+    display: flex; flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+    background-color: black;
+}
+
+a{
+    list-style-type: none;
+}
+
+svg{
+    margin: 5px;
+    padding: 5px;
+    text-decoration: none;
+    color: white;
+    width: 3em;
+    height: auto;
+}
+
+/* textos */
+
+h1{
+    justify-content: center;
+    align-content: center;
+    font-size: 50px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h2{
+    justify-content: center;
+    align-content: center;
+    font-size: 30px;
+    font-family:Haettenschweiler, 'Arial Narrow', sans-serif;
+}
+
+h3{
+    justify-content: center;
+    align-content: center;
+    font: bold;
+    font-size: 1.5em;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2em;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+/* portadas */
+
+.image{
+    width: 80%;
+    height: auto;
+    margin-left: 10%;
+    margin-right: 10%;
+} 
+
+.portada{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* index */
+
+.indexImage{
+    width: 80%;
+    height: auto;
+    margin-left: 10%;
+    margin-right: 10%;
+} 
+
+.indexText{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    margin: 30% 10% 20px 10%;
+}
+
+
+/* seccion de entrenamiento y seccion de suplementos */
+
+.entrenamientoSuplementos{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly
+}
+
+.entrenamientoSuplementos img{
+    width: 15%;
+}
+
+
+/* seccion de resultados */
+
+.antesDespuesImg{
+    display: flex; flex-direction: row;
+    justify-content: center;
+}
+
+.antesDespuesImg img{
+    width: 30%;
+    margin: 2px;
+}
+
+.separacionResultados{
+    display: flex; flex-direction: row;
+    justify-content: center;
+    margin-top: 40px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.textoResultados{
+    display: flex; flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+
+
+/* seccion de contacto */
+
+
+.contactoSection{
+    display: flex; flex-direction: row-reverse;
+    justify-content: space-around;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.ubicacion{
+    display: flex; flex-direction: column;
+    justify-content: center; align-items: center;
+}
+
+.formulario{
+    display: flex; flex-direction: column;
+    justify-content: center; align-items: center;
+}
+
+.formulario input{
+    display: flex; flex-direction: column;
+    background-color: ghostwhite;
+}
+
+.casillas{
+    background-color: black;
+}
+
+
+/* vista de celular */
+
+@media screen and (min-width: 0px) {
+    
+    .gridContainer{
+		display: grid; 
+        grid-template-areas:
+		"header" "main" "footer"; 
+		grid-template-columns: 1fr;
+        gap: 3em;
+	}
+
+    .portada{
+        margin: 5%;
+    }
+    
+    .image{
+        margin-top: 10%;
+    }
+
+    .gridContainerSections{
+		display: grid; 
+        grid-template-areas: 
+        "header" "main" "footer";
+		grid-template-columns: 1fr;
+        gap: 3em;
+	}
+
+    .entrenamientoSuplementos img{
+        width: 60%;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .entrenamientoSuplementos{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .entrenamientoSuplementos{
+        display: grid;
+        justify-items: center;
+        grid-template-columns: 1fr;
+        gap: 5%;
+        margin: 10%;
+    }
+
+    footer{
+        margin-top: 50px;
+    }
+
+    
+
+
+
+
+}
+
+@media screen and (min-width: 576px) {
+
+    li a{
+        font-size: 1.4em;
+    }
+
+    .navLogo{
+        width: 120px;
+    }
+
+    .gridContainer{
+		display: grid; 
+        grid-template-areas:
+		"header" 
+        "indexText indexImage" 
+        "footer"; 
+		grid-template-columns: 1fr;
+        gap: 3em;
+	}
+
+    .portada{
+        margin: 5%;
+    }
+    
+    .image{
+        margin-top: 10%;
+    }
+
+    .gridContainerSections{
+		display: grid; 
+        grid-template-areas: 
+        "header" "main" "footer";
+		grid-template-columns: 1fr;
+        gap: 3em;
+	}
+
+    .entrenamientoSuplementos img{
+        width: 60%;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .entrenamientoSuplementos{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .entrenamientoSuplementos{
+        display: grid;
+        justify-items: center;
+        grid-template-columns: 1fr;
+        gap: 5%;
+        margin: 10%;
+    }
+
+    footer{
+        margin-top: 50px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+
+    li a{
+        font-size: 1.6em;
+    }
+
+    .navLogo{
+        width: 200px;
+    }
+
+    .gridContainer{
+		display: grid; 
+        grid-template-areas:
+		"header" "main" "footer"; 
+		grid-template-columns: 1fr;
+        gap: 3em;
+	}
+
+    .gridContainerSections{
+		display: grid; 
+        grid-template-areas: 
+        "header" "main" "footer";
+		grid-template-columns: 1fr;
+        gap: 3em;
+	}
+
+    .indexImage{
+        width: 80%;
+        height: auto;
+        margin-left: 10%;
+        margin-right: 10%;
+    } 
+    
+    .indexText{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 20px;
+        margin: 30% 10% 20px 10%;
+    }
+
+    .entrenamientoSuplementos{
+        display: flex;
+        flex-direction: row;
+        justify-content:space-evenly
+    }
+    
+    .entrenamientoSuplementos img{
+        width: 20%;
+    }
+}
