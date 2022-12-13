@@ -8,12 +8,12 @@
     <link rel="shortcut icon" href="../assets/img/favicon.ico">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/estilos.css">
     <title>Gold Gym</title>
 </head>
 
 <body>
-<div class="gridContainerSections">
+<div class="gridContainer">
     <header>
         <nav class="navbar navbar-expand-sm navbar-dark color">
             <div class="container-fluid">
@@ -23,8 +23,8 @@
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
-              <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
+              <div class="collapse navbar-collapse seccionesBar" id="navbarNav">
+                <ul class="navbar-nav align-items-center ms-2">
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="../index.html">INICIO</a>
                     </li>
@@ -47,21 +47,32 @@
     </header>
     <main>
         <section>
-            <img class="image" src="../assets/img/entrenamiento-portada.jpg" alt="página de entrenamiento">
             <div class="portada">
-                <h1>Entrenamiento</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum, eligendi.</p>
+                <img src="../assets/img/pesas.png" alt="servicios de entrenamiento">
+                <div class="portadaDiv"> <h1>ENTRENAMIENTO</h1> </div>
             </div>
-            <div class="entrenamientoSuplementos">
-                <img src="../assets/img/powerlift.jpg" alt="powerlifting">
-                <img src="../assets/img/funcional.jpg" alt="entrenamiento funcional">
-                <img src="../assets/img/hipertrofia.jpg" alt="hipertrofia muscular">
-                <img src="../assets/img/boxeo.jpg" alt="boxeo">
+                <p>CONTAMOS CON 4 PLANES DE ENTRENAMIENTO TOTALMENTE PERSONALIZADOS Y ADECUADOS A TU TIEMPO Y NIVEL DE EJERCICIO</p>
+            <div class="galeria">
+                <div class="contenedores">
+                    <img src="../assets/img/entopcionuno.png" alt="powerlifting">
+                    <div class="services"> <h3>POWERLIFTING</h3> </div>
+                </div>
+                <div class="contenedores">
+                    <img src="../assets/img/entopciondos.png" alt="entrenamiento funcional">
+                    <div class="services"> <h3>FUNCIONAL</h3> </div>
+                </div>
+                <div class="contenedores">
+                    <img src="../assets/img/entopciontres.png" alt="hipertrofia muscular">
+                    <div class="services"> <h3>HIPERTROFIA</h3> </div>
+                </div>
+                <div class="contenedores">
+                    <img src="../assets/img/entopcioncuatro.png" alt="boxeo">
+                    <div class="services"> <h3>BOXING</h3> </div>
+                </div>
             </div>
         </section>
     </main>
     <footer>
-        <nav class="footerNav">
             <a href="https://www.instagram.com/" target="_blank">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                     class="bi bi-instagram" viewBox="0 0 16 16">
@@ -83,7 +94,6 @@
                         d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z" />
                 </svg>
             </a>
-        </nav>
     </footer>
 </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"

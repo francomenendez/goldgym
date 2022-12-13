@@ -1,0 +1,33 @@
+/* generales*/
+
+.gridContainer {
+    display: grid;
+    grid-template-areas:
+        "header""main""footer";
+    grid-template-columns: 1fr;
+    gap: 3em;
+}
+
+/* cuadrícula de imagenes*/
+
+.galeria{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    align-items: center;
+    padding: 40px;
+    gap: 5px;
+
+    img{
+        width: 20em;
+        height: auto;
+        margin: 10px;
+    }
+}
+
+@media (min-width: 576) {
+
+    .galeria{
+    display: grid; 
+    grid-template-columns: 1fr 1fr; }
+}

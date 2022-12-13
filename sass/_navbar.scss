@@ -1,0 +1,26 @@
+.color{
+    background-image: url(../assets/img/fondo.png);
+}
+
+.navLogo{
+    display: flex; align-content: center;
+  img{
+    width: 40%;
+height: auto;
+}
+}
+
+li a{
+    font-size: 1.6em;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.seccionesBar{
+    margin-right: 30em;
+    display: flex; justify-content: center;
+}
+
+.navbar{
+    padding: 15px 10px 10px 10px;
+    display: flex;
+}

@@ -8,11 +8,12 @@
     <link rel="shortcut icon" href="../assets/img/favicon.ico">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/estilos.css">
     <title>Gold Gym</title>
 </head>
 
 <body>
+    <div class="gridContainer">
     <header>
         <nav class="navbar navbar-expand-sm navbar-dark color">
             <div class="container-fluid">
@@ -22,8 +23,8 @@
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
-              <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
+              <div class="collapse navbar-collapse seccionesBar" id="navbarNav">
+                <ul class="navbar-nav align-items-center ms-2">
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="../index.html">INICIO</a>
                     </li>
@@ -47,30 +48,39 @@
     <main>
         <section>
             <div class="portada">
-                <h1>Suplementos</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque blanditiis ad expedita est nemo
-                    aliquid delectus ab quae sapiente facere sequi tempore magnam nostrum aspernatur ipsam officia
-                    dolore magni accusantium, pariatur consequatur voluptas corporis! Ab hic itaque sunt. Accusamus,
-                    ipsam, nisi eum deserunt quos delectus recusandae similique, facere nesciunt cupiditate asperiores
-                    iure commodi exercitationem iusto consectetur laudantium repudiandae enim assumenda officia? Quod
-                    repellat corrupti sunt et, reprehenderit excepturi hic provident voluptatum veritatis tenetur. Sint
-                    sunt incidunt laudantium veniam a doloribus fugit molestias omnis fugiat adipisci, facere tenetur
-                    quo culpa obcaecati distinctio magni beatae dignissimos quis, aspernatur ut voluptate autem
-                    deserunt?</p>
+                <img src="../assets/img/suplementacion.png" alt="productos suplementos">
+                <div class="portadaDiv"> <h1>SUPLEMENTOS</h1> </div>
             </div>
-            <img class="image" src="../assets/img/suplementos-portada.jpg" alt="página de suplementos">
-        </section>
-        <section>
-            <div class="entrenamientoSuplementos">
-                <img src="../assets/img/proteina.jpg" alt="proteína en polvo">
-                <img src="../assets/img/omega3.jpg" alt="omega tres">
-                <img src="../assets/img/creatina.jpg" alt="creatina en polvo">
-                <img src="../assets/img/cannabis.jpeg" alt="cannabis medicinal">
+                <p>LOS BUENOS RESULTADOS UNEN EL EJERCICIO PESADO Y UNA NUTRICIÓN ADECUADA <br> EN GOLD GYM TENEMOS UNA GRAN VARIEDAD DE SUPLEMENTOS PARA QUE LLEGUES A TUS REQUERIMIENTOS DIARIOS </p>
+            <div class="galeria">
+                <div class="contenedores">
+                    <img src="../assets/img/supopcionone.png" alt="proteina">
+                    <div class="services">
+                        <h3>PROTEÍNA</h3>
+                    </div>
+                </div>
+                <div class="contenedores">
+                    <img src="../assets/img/supopciontwo.png" alt="omega tres">
+                    <div class="services">
+                        <h3>OMEGA 3</h3>
+                    </div>
+                </div>
+                <div class="contenedores">
+                    <img src="../assets/img/supopcionthree.png" alt="creatina">
+                    <div class="services">
+                        <h3>CREATINA</h3>
+                    </div>
+                </div>
+                <div class="contenedores">
+                    <img src="../assets/img/supopcionfour.png" alt="aceite de cannabis">
+                    <div class="services">
+                        <h3>ACEITES</h3>
+                    </div>
+                </div>
             </div>
         </section>
     </main>
     <footer>
-        <nav class="footerNav">
             <a href="https://www.instagram.com/" target="_blank">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                     class="bi bi-instagram" viewBox="0 0 16 16">
@@ -92,8 +102,8 @@
                         d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z" />
                 </svg>
             </a>
-        </nav>
     </footer>
+</div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
     </script>
