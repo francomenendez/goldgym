@@ -23,11 +23,14 @@
         height: auto;
         margin: 10px;
     }
-}
 
-@media (min-width: 576) {
+    @media (min-width: 576px) {
 
-    .galeria{
     display: grid; 
     grid-template-columns: 1fr 1fr; }
+
+    @media (min-width: 876px) {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
 }
+
